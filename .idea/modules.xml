@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/699/699.iml" filepath="$PROJECT_DIR$/699/699.iml" />
+      <module fileurl="file://$PROJECT_DIR$/701/701.iml" filepath="$PROJECT_DIR$/701/701.iml" />
+      <module fileurl="file://$PROJECT_DIR$/703/703.iml" filepath="$PROJECT_DIR$/703/703.iml" />
+      <module fileurl="file://$PROJECT_DIR$/705/705.iml" filepath="$PROJECT_DIR$/705/705.iml" />
+      <module fileurl="file://$PROJECT_DIR$/706/706.iml" filepath="$PROJECT_DIR$/706/706.iml" />
+      <module fileurl="file://$PROJECT_DIR$/707/707.iml" filepath="$PROJECT_DIR$/707/707.iml" />
+      <module fileurl="file://$PROJECT_DIR$/712/712.iml" filepath="$PROJECT_DIR$/712/712.iml" />
+      <module fileurl="file://$PROJECT_DIR$/714/714.iml" filepath="$PROJECT_DIR$/714/714.iml" />
+      <module fileurl="file://$PROJECT_DIR$/716/716.iml" filepath="$PROJECT_DIR$/716/716.iml" />
+      <module fileurl="file://$PROJECT_DIR$/719/719.iml" filepath="$PROJECT_DIR$/719/719.iml" />
+      <module fileurl="file://$PROJECT_DIR$/721/721.iml" filepath="$PROJECT_DIR$/721/721.iml" />
+      <module fileurl="file://$PROJECT_DIR$/723/723.iml" filepath="$PROJECT_DIR$/723/723.iml" />
+      <module fileurl="file://$PROJECT_DIR$/725/725.iml" filepath="$PROJECT_DIR$/725/725.iml" />
+      <module fileurl="file://$PROJECT_DIR$/731/731.iml" filepath="$PROJECT_DIR$/731/731.iml" />
       <module fileurl="file://$PROJECT_DIR$/732/732.iml" filepath="$PROJECT_DIR$/732/732.iml" />
+      <module fileurl="file://$PROJECT_DIR$/733/733.iml" filepath="$PROJECT_DIR$/733/733.iml" />
+      <module fileurl="file://$PROJECT_DIR$/734/734.iml" filepath="$PROJECT_DIR$/734/734.iml" />
+      <module fileurl="file://$PROJECT_DIR$/735/735.iml" filepath="$PROJECT_DIR$/735/735.iml" />
+      <module fileurl="file://$PROJECT_DIR$/738/738.iml" filepath="$PROJECT_DIR$/738/738.iml" />
+      <module fileurl="file://$PROJECT_DIR$/740/740.iml" filepath="$PROJECT_DIR$/740/740.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codeforces.iml" filepath="$PROJECT_DIR$/Codeforces.iml" />
     </modules>
   </component>
