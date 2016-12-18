@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/631/631.iml" filepath="$PROJECT_DIR$/631/631.iml" />
+      <module fileurl="file://$PROJECT_DIR$/651/651.iml" filepath="$PROJECT_DIR$/651/651.iml" />
       <module fileurl="file://$PROJECT_DIR$/659/659.iml" filepath="$PROJECT_DIR$/659/659.iml" />
       <module fileurl="file://$PROJECT_DIR$/664/664.iml" filepath="$PROJECT_DIR$/664/664.iml" />
       <module fileurl="file://$PROJECT_DIR$/669/669.iml" filepath="$PROJECT_DIR$/669/669.iml" />
@@ -41,6 +42,8 @@
       <module fileurl="file://$PROJECT_DIR$/740/740.iml" filepath="$PROJECT_DIR$/740/740.iml" />
       <module fileurl="file://$PROJECT_DIR$/742/742.iml" filepath="$PROJECT_DIR$/742/742.iml" />
       <module fileurl="file://$PROJECT_DIR$/743/743.iml" filepath="$PROJECT_DIR$/743/743.iml" />
+      <module fileurl="file://$PROJECT_DIR$/745/745.iml" filepath="$PROJECT_DIR$/745/745.iml" />
+      <module fileurl="file://$PROJECT_DIR$/746/746.iml" filepath="$PROJECT_DIR$/746/746.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codeforces.iml" filepath="$PROJECT_DIR$/Codeforces.iml" />
     </modules>
   </component>
