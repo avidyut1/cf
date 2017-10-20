@@ -10,35 +10,28 @@ public class C {
             int n = in.readInt();
             int k = in.readInt();
             int ar[][] = new int[n][k];
-            ProblemCount[] pc = new ProblemCount[n];
-            for (int i = 0; i < n; i++) {
-                int count = 0;
-                for (int j = 0; j < k; j++) {
-                    ar[i][j] = in.readInt();
-                    count += ar[i][j];
-                }
-                pc[i] = new ProblemCount(i, count);
-            }
-            Arrays.sort(pc);
             boolean yes = false;
-            int countknown[] = new int[k];
+            boolean dp[] = new boolean[1 << k];
             for (int i = 0; i < n; i++) {
-                int index = pc[i].problemIndex;
+                int x = 0;
                 for (int j = 0; j < k; j++) {
-                    countknown[j] += ar[index][j];
+                    int known = in.readInt();
+                    x += known == 1 ? (1 << j): 0;
                 }
-                int half = (i + 1) / 2;
-                boolean flag = true;
-                for (int j = 0; j < k; j++) {
-                    if (countknown[j] > half) {
-                        flag = false;
+                dp[x] = true;
+            }
+            //considering only two cases
+            //all team dosen't know a single problem
+            //some team knows one problem and some team knows second problem (considering two problems)
+            boolean ok = dp[0];
+            for (int i = 0; i < 1 << k; i++) {
+                for (int j = 0; j < 1 << k; j++) {
+                    if ((i & j) == 0 && dp[i] && dp[j]) {
+                        ok = true;
                     }
                 }
-                if (flag) {
-                    yes = true;
-                }
             }
-            if (yes) {
+            if (ok) {
                 out.write("YES");
             }
             else {
@@ -48,19 +41,5 @@ public class C {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-}
-class ProblemCount implements Comparable<ProblemCount> {
-
-    public int problemIndex;
-    public int count;
-
-    public ProblemCount(int problemIndex, int count) {
-        this.problemIndex = problemIndex;
-        this.count = count;
-    }
-
-    public int compareTo(ProblemCount that) {
-        return Integer.compare(this.count, that.count);
     }
 }
